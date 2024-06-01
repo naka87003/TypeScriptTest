@@ -3,7 +3,11 @@ const obj = {
   bar: 'Hello, world!',
 };
 
-type T = typeof obj;
+type T = {
+  foo: number;
+  bar: string;
+  baz?: string;
+};
 
 const obj2: T = {
   foo: -50,
