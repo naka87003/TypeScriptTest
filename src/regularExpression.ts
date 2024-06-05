@@ -18,7 +18,7 @@
   const result = text.match(/a(?<worldName>b+)c/);
 
   if (result !== null) {
-    console.log(result.groups?.worldName);
+    console.log(result);
   }
 
   const result2 = text.match(/a(?<worldName>b+)c/g);
